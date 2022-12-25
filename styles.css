@@ -1,12 +1,13 @@
 
 /* Your CSS Code here. */
+
 .item{
     background-color: darkorchid;
     border: 1px solid black;
 }
 .holder {
     display:grid;
-    /*grid-template-columns:100px 100px 100px ;*/
-    grid-template-columns: repeat(2,200px);
+    grid-template-columns:200px 200px ;
+    /*grid-template-columns: repeat(2,200px);*/
     
 }
